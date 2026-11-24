@@ -92,10 +92,10 @@ Each regression algorithm has its own Django application and prediction page.
              │                │                │
              ▼                ▼                ▼
         Main Page       Model Prediction    Metrics
-                              │                │
-              ┌───────────────┼────────────┐   │
-              │       │       │      │     │   │
-              ▼       ▼       ▼      ▼     ▼   ▼
+                              │                
+              ┌───────────────┼────────────┐   
+              │       │       │      │     │   
+              ▼       ▼       ▼      ▼     ▼   
            Linear   Ridge    RF     KNN   GB   XGBoost
               │       │       │      │     │     │
               └───────┴───────┴──────┴─────┴─────┘
